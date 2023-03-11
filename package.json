@@ -1,0 +1,14 @@
+{
+  "name": "single-page-developer-portfolio",
+  "version": "1.0.0",
+  "description": "![Design preview for the Single-page developer portfolio coding challenge](./preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
