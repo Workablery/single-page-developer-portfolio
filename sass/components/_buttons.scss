@@ -1,3 +1,21 @@
 /* ********** */
 /* COMPONENTS - BUTTONS */
 /* ********** */
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 2.29px;
+  padding-bottom: 1.2rem;
+  border-bottom: 2px solid $green;
+  transition: color 0.3s ease;
+}
+
+.btn:hover,
+.btn:active {
+  color: $green;
+}
