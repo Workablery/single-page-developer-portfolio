@@ -116,6 +116,7 @@ header {
   max-width: 111rem;
   align-items: center;
   justify-content: space-between;
+  padding: 7.5rem 0;
   margin: 0 auto;
 }
 
@@ -127,9 +128,14 @@ header {
   gap: 3rem;
 }
 
+.project-card {
+  padding-bottom: 7rem;
+}
+
 .image-container {
   width: 54rem;
   position: relative;
+  padding-bottom: 2rem;
 }
 
 .image-container img {
@@ -161,4 +167,5 @@ header {
 .project-tag {
   color: $grey;
   text-transform: uppercase;
+  padding-right: 1.8rem;
 }
