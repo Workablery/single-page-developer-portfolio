@@ -389,6 +389,27 @@ h5 {
 /* ********** */
 /* GENERAL LAYOUT - FOOTER */
 /* ********** */
+footer {
+  background-color: #242424;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 111rem;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 0;
+  margin: 0 auto;
+  padding: 4.7rem 0 9.2rem 0;
+  border-top: 1px solid #FFFFFF;
+}
+
+.social-media-container-footer {
+  display: flex;
+  gap: 3.2rem;
+}
+
 /* ********** */
 /* GENERAL LAYOUT - FORMS */
 /* ********** */
@@ -452,7 +473,7 @@ header {
   border-bottom: 1px solid #FFFFFF;
 }
 
-.adamkeyes-elem {
+.adamkeyes-elem-header {
   grid-column: 1/2;
   grid-row: 1/2;
   padding-top: 4.3rem;
@@ -609,6 +630,39 @@ header {
   color: #D9D9D9;
   text-transform: uppercase;
   padding-right: 1.8rem;
+}
+
+.contact-container {
+  background-color: #242424;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 111rem;
+  margin: 0 auto;
+  padding: 8.4rem 0;
+}
+
+.information-container h2 {
+  padding-bottom: 3.6rem;
+}
+
+.information-container p {
+  color: #D9D9D9;
+  max-width: 44.5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 44.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,3 +1,24 @@
 /* ********** */
 /* GENERAL LAYOUT - FOOTER */
 /* ********** */
+
+footer {
+  background-color: $dark-grey;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 111rem;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 1 0;
+  margin: 0 auto;
+  padding: 4.7rem 0 9.2rem 0;
+  border-top: 1px solid $white;
+}
+
+.social-media-container-footer {
+  display: flex;
+  gap: 3.2rem;
+}
